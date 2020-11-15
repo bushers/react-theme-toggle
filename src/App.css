@@ -1,0 +1,46 @@
+body[data-theme='light'] {
+  --colors-heading: #33272a;
+  --colors-background: #faeee7;
+  --colors-text: #594a4e;
+  --colors-btn: #ff8ba7;
+  --colors-btn-text: #33272a;
+}
+
+body[data-theme='dark'] {
+  --colors-heading: #fffffe;
+  --colors-background: #0f0e17;
+  --colors-text: #a7a9be;
+  --colors-btn: #ff8906;
+  --colors-btn-text: #fffffe;
+}
+
+body[data-theme='green'] {
+  --colors-heading: #fffffe;
+  --colors-background: #004643;
+  --colors-text: #abd1c6;
+  --colors-btn: #f9bc60;
+  --colors-btn-text: #001e1d;
+}
+
+body {
+  background-color: var(--colors-background);
+  padding: 4rem 2rem;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+h1 {
+  color: var(--colors-heading);
+}
+
+p {
+  color: var(--colors-text);
+}
+
+button {
+  background-color: var(--colors-btn);
+  color: var(--colors-btn-text);
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+}
